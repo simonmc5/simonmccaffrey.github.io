@@ -1,0 +1,372 @@
+/*Index Page*/
+
+img {
+  width: 50%;
+  margin: 0 auto;
+}
+header {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ffffff;
+}
+.logo {
+  width: 150px;
+  height: 80px;
+  text-align: center;
+}
+
+
+/* Navigation Bar*/
+nav ul {
+    list-style-type: none; /*this removes the bullets from the list */
+   margin: 5px;
+   padding: 0;
+   text-align: center;
+   font-family: athelas;
+   font-size: 25px;
+   }
+nav ul li {
+   display: inline-block; /* this makes the links horizontal */
+   }
+nav ul   li a {
+   color: black; /*this is the font color and it is white */ 
+   padding: 20px; /*this is the padding around the text which creates
+   that box */
+   background-color: #ffffff; /* this is the background color of the
+   box around the text */
+   }
+p  {
+    font-family: Athelas;
+    font-size: 20px;
+    text-align: center;
+    }
+p {
+  font-family: Athelas;
+  font-size: 20px;
+  text-align: center; 
+}
+
+
+
+/*About Us Page*/
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+  font-family: Athelas;
+  margin: 0;
+}
+h1{
+  font-family: athelas;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  font-family: athelas;
+  font-size: 16px;
+  background-color: rgb(229, 231, 230);
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  padding: 0 16px;
+  width:50%;
+  margin-left:25%;
+  margin-right:25%;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+/* Contact Page */
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical  
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+/* Menu Page */
+
+body {
+	font-family: 'athelas bold';
+	color: rgb(0, 0, 0);
+	line-height: 1.6;
+}
+.pt-100{
+    padding-top:100px;
+}
+.pb-100{
+    padding-top:100px;
+}
+.mb-60 {
+	margin-bottom: 60px;
+}
+.section-title p {
+	font-size: 24px;
+	font-family: athelas;
+	margin-bottom: 0px;
+	margin-top:50px;
+}
+.section-title h4 {
+	font-size: 40px;
+	text-transform: capitalize;
+	color: #000000;
+	position: relative;
+	display: inline-block;
+	padding-bottom: 25px;
+}
+.section-title h4::before {
+	width: 80px;
+	height: 1.5px;
+	bottom: 0;
+	left: 50%;
+	margin-left: -40px;
+}
+.section-title h4::before, .section-title h4::after {
+	position: absolute;
+	content: "";
+	background-color: #000000;
+}
+.single_menu_list img {
+	max-width: 30%;
+	position: absolute;
+	left: 0px;
+	top: 0;
+	border: 1px solid #ddd;
+	padding: 3px;
+	border-radius: 50%;
+	transition: .4s;
+}
+.menu_style1 .single_menu_list img {
+	position: static;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 45px;
+}
+.single_menu_list h4 {
+	font-size: 20px;
+	border-bottom: 1px dashed #333;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+.single_menu_list h4 span {
+	float: right;
+	font-weight: bold;
+	color: #000000;
+	font-style: italic;
+}
+p {
+	font-weight: 300;
+	font-size: 14px;
+}
+.menu_style1 .single_menu_list {
+	text-align: center;
+}
+.single_menu_list:hover img {
+	border-radius: 0;
+	transition: .4s;
+}
+
+/* Above the Menu */
+/* Three image containers */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+/* Footer */
+
+/**********************************/
+/*          Styling Footer        */
+/**********************************/
+ 
+/*** Adding Styles to Company Details ***/
+.company-details{
+  overflow: hidden;
+  padding: 3em 0em;
+  background: rgb(76, 187, 23);
+  text-align: center;
+  margin-top: 5em;
+}
+
+#footer #col1,
+#footer #col2,
+#footer #col3{
+  /*
+  float: left;
+  width: 320px;
+  padding: 0px 40px 0px 40px;
+  */
+display:inline-block;
+width:32%;
+}
+   
+@media screen and (max-width: 650px) {
+#footer #col1,
+#footer #col2,
+#footer #col3{
+display:block;
+width:100%;
+}
+}
+
+#footer #icon{
+  display: block;
+  margin-bottom: 1em;
+  font-size: 3em;
+}
+
+/*** Adding Styles to Copyright Div ***/
+.copyright
+{
+  overflow: hidden;
+  padding: 3em 0em;
+  border-top: 20px solid rgba(255, 255, 255, 0.08);
+  text-align: center;
+  background: rgb(65, 57, 61);
+}
+   
+.copyright p
+{
+  letter-spacing: 1px;
+  font-size: 0.90em;
+  color: rgba(255, 255, 255, 0.6);
+}
+   
+.copyright a
+{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Styling Social Icons */
+ul.contact{
+  margin: 0;
+  padding: 2em 0em 0em 0em;
+  list-style: none;
+}
+   
+ul.contact li{
+  display: inline-block;
+  padding: 0em 0.10em;
+  font-size: 1em;
+}
+
+ul.contact li a{
+  color: #FFF;
+  display: inline-block;
+  background: #4C93B9;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.animated {
+  animation: pulse 0.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
