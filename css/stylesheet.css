@@ -354,6 +354,13 @@ ul.contact li a{
   line-height: 40px;
   text-align: center;
 }
+
+span.fa.fa-icon_name{
+   height: 50px !important; 
+   width: 50px !important;
+   background: blue !important;
+}
+
 .animated {
   animation: pulse 0.5s infinite;
 }
@@ -369,4 +376,3 @@ ul.contact li a{
     transform: scale(1);
   }
 }
-
