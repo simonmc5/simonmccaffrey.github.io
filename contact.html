@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
-   <meta name="description" content="Town is a chinese cuisine. It is a high end restaurant.>
-   <meta name="keywords content="chinese cuisine, restaurant, food, recipes, menu, location, town, customers, dining, luxury, events, nigh out, chinese food">
+   <meta name="description" content=">
+   <meta name="keywords content="">
    <meta name="author" content="Simon">
    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
- <link href="css/stylesheet.css" rel = "stylesheet" type="text/css">
+   <link href="stylesheet.css" rel="stylesheet" type="text/css">
+ <script src="script.js"></script>
  </head>
  <body>
 
@@ -24,29 +25,29 @@
    </div>
  </header>
 
-    <div class="container">
-        <form action="action_page.php">
-      
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-      
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Additional Questions.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-      
-        </form>
-        </div>
+ <div class="form-container">
+  <h1>Contact Form</h1>
+  <form name="contactForm" method="post" onsubmit = "return validate()" action="#">
+    <label for="name">* Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name" >
+    <span class="errors"></span><br>
+
+    <label for="email">* Email</label>
+    <input type="text" placeholder="Email address" id="email" name="email" >
+    <span class="errors"></span><br>
+
+    <label for="phone">* Phone</label>
+    <input type="text" placeholder="Phone number" id="phone" name="phone" >
+    <span class="errors"></span><br>
+    
+    <label for="subject">* Message</label>
+    <textarea placeholder="Your message" cols="132" rows="5" name="subject" id="subject"></textarea>
+    <span class="errors"></span><br>
+
+    <button type="submit" value="Submit">Submit</button>
+    
+  </form>
+</div>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <span class="fa fa-icon_name"></span>
