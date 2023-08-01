@@ -15,13 +15,6 @@ header {
   text-align: center;
 }
 
-@media screen and (max-width: 300px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
 /* Navigation Bar*/
 nav ul {
     list-style-type: none; /*this removes the bullets from the list */
